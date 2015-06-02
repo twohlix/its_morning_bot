@@ -10,7 +10,7 @@ end
 
 def schedule_tweet(time)
   puts "Scheduling sunrise tweet for tomorrow!"
-  puts "echo \"ruby #{File.absolute_path(__FILE__)}\" | at #{time.getlocal.strftime('%H:%M')} tomorrow"
+  exec "echo \"ruby #{File.absolute_path(__FILE__)}\" | at #{time.getlocal.strftime('%H:%M')} tomorrow"
 end
 
 def tweet_message
