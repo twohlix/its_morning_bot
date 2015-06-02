@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    console_tweet (0.1.6)
+      twitter_oauth (>= 0.4.9)
+    json (1.8.3)
+    mime-types (2.6.1)
+    oauth (0.4.7)
+    ruby-sun-times (0.1.5)
+    twitter_oauth (0.4.94)
+      json (>= 1.8.0)
+      mime-types (>= 1.16)
+      oauth (>= 0.4.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  console_tweet
+  ruby-sun-times
